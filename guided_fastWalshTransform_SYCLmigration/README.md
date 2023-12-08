@@ -48,8 +48,6 @@ slow. The results would be validated with reference CPU FWT implementation by ca
 
 This sample is migrated from NVIDIA CUDA sample. See the [fastWalshTransform](https://github.com/NVIDIA/cuda-samples/tree/master/Samples/5_Domain_Specific/fastWalshTransform) sample in the NVIDIA/cuda-samples GitHub.
 
-For information on how to use SYCLomatic, refer to the materials at *[Migrate from CUDA* to C++ with SYCL*](https://www.intel.com/content/www/us/en/developer/tools/oneapi/training/migrate-from-cuda-to-cpp-with-sycl.html)*.
-
 ## Set Environment Variables
 
 When working with the command-line interface (CLI), you should configure the oneAPI toolkits using environment variables. Set up your CLI environment by sourcing the `setvars` script every time you open a new terminal window. This practice ensures that your compiler, libraries, and tools are ready for development.
