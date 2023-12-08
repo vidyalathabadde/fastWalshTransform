@@ -7,7 +7,7 @@ particular application to dyadic convolution computation. The original CUDA* sou
 |:---                   |:---
 | What you will learn              | Migrate fastWalshTransform from CUDA to SYCL
 | Time to complete              | 15 minutes
-| Category                      | Code Optimization
+| Category                      | Concepts and Functionality
 
 ## Purpose
 
