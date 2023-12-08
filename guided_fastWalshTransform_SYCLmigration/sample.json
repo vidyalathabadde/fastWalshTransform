@@ -1,8 +1,8 @@
 {
-  "guid": "009305E2-4EA9-4D30-B09F-4B578CE6DD54",
-  "name": "convolutionSeparable",
+  "guid": "8618745D-8D9D-4CFA-8914-8C1D38D94C0D
+  "name": "fastWalshTransform",
   "categories": ["Toolkit/oneAPI Direct Programming/C++SYCL"],
-  "description": "This sample implements a separable convolution filter of a 2D signal with a gaussian kernel.",
+  "description": "This sample demonstrates the efficient implementation of naturally-ordered Walsh transform",
   "toolchain": [ "dpcpp" ],
   "languages": [ { "cpp": {} } ],
   "targetDevice": [ "CPU", "GPU" ],
@@ -17,8 +17,7 @@
                         "cmake ..",
 			"cmake -D INTEL_MAX_GPU=1 ..",
                         "make",
-                        "make run",
-                        "make run_smo"
+                        "make run"
                  ]
         }]
 
