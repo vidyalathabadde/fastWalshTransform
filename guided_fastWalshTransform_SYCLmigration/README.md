@@ -85,6 +85,11 @@ For this sample, the SYCLomatic tool automatically migrates 100% of the CUDA run
 ```
 Since it's a custom API SYCLomatic tool will not act on it and we can either remove it or replace it with the `dpct get_device()` API to get device details.
 
+2. While running the code on Intel(R) UHD Graphics P630 (gen9) GPU we get a runtime error as the number of work-items in each dimension of a work-group cannot exceed {256, 256, 256} for this device. To resolve this, adjust the macro value in fastWalshTransform_kernel.dp.hpp file
+```
+    #define ELEMENTARY_LOG2SIZE 10
+```
+
 ## Build and Run the `fastWalshTransform` Sample
 
 >  **Note**: If you have not already done so, set up your CLI
